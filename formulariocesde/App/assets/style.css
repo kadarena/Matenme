@@ -4,6 +4,7 @@
 
 ul{
     list-style: none;
+    padding-left: 0%;
 }
 
 .caja {
@@ -25,12 +26,12 @@ ul{
     height: 700px;
 }
 
-#form,
+/* #form,
 #sedes {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-}
+} */
 
 .nav-container {
     border: 1px solid #333;
@@ -58,27 +59,16 @@ ul{
 }
 
 
-.formulario input,
+.input_txt,
 select {
-	width: 100%;
+	width: 70%;
     margin: 5px;
 	background: #fff;
 	border: 1px solid black;
 	border-radius: 2px;
 	height: 45px;
 	line-height: 45px;
-	padding: 0 40px 0 10px;
+    padding: 0px;
 	transition: .3s ease all;
 }
 
-#input_text{
-    width: 100%;
-    margin: 5px;
-	background: #fff;
-	border: 1px solid black;
-	border-radius: 2px;
-	height: 45px;
-	line-height: 45px;
-	padding: 0 40px 0 10px;
-	transition: .3s ease all;
-}
