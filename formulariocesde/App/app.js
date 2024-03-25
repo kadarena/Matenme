@@ -49,7 +49,7 @@ export function App(){
                 <li>
                     <input type="checkbox" name="terminos" id="checkbox">He leído y aceptado la Política de Tratamiento y protección de Datos Personales
                 </li>
-                <button>Enviar</button>
+                <button id="enviar">Enviar</button>
             </ul>
         </form>
     </article>
